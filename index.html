@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <title>CPU Scheduling Simulator</title>
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-window-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="docs.html">DOCS</a></li>
+                    <li><a href="./backend/ganttcharts.html">SIMULATOR</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>
+                CPU Scheduling Simulator
+            </h1>
+            <p>
+                Welcome to the CPU Scheduler Simulator
+                <br>
+                Your ultimate tool for learning and mastering CPU scheduling
+                algorithms.
+
+            </p>
+            <a href="docs.html" class="hero-btn">GET STARTED</a>
+        </div>
+    </section>
+
+    <section class="course">
+        <h1>Need of Algorithm</h1>
+
+        <div class="wrapper" data-aos="zoom-in-up">
+            <div class="my-slider">
+                <div>
+                    <h3>CPU Utilization</h3>
+                    <p>CPU scheduling is a process that allows one process to use the CPU while the execution of
+                        another
+                        process is on hold due to unavailability of any resource like I/O etc, thereby making
+                        full
+                        use of
+                        CPU. The aim of CPU scheduling is to maximize CPU utilization by making the system
+                        efficient, fast,
+                        and fair.</p>
+                </div>
+                <div>
+                    <h3>Max Performance</h3>
+                    <p>To make out the best use of the CPU and not to waste any CPU cycle, the CPU would be
+                        working
+                        most of
+                        the time(Ideally 100% of the time). Considering a real system, CPU usage should range
+                        from
+                        40%
+                        (lightly loaded) to 90% (heavily loaded.)</p>
+                </div>
+                <div>
+                    <h3>Time Minimizing</h3>
+                    <p>There are many very different types of algorithms for different different tasks. By using
+                        them we can
+                        minimize waiting time, response time and turnaround time of processes. like turnaround
+                        time
+                        is
+                        minimized if most processes finish their next cpu burst within one time quantum.</p>
+                </div>
+                <div>
+                    <h3>Time Minimizing</h3>
+                    <p>There are many very different types of algorithms for different different tasks. By using
+                        them we can
+                        minimize waiting time, response time and turnaround time of processes. like turnaround
+                        time
+                        is
+                        minimized if most processes finish their next cpu burst within one time quantum.</p>
+                </div>
+                <div>
+                    <h3>Time Minimizing</h3>
+                    <p>There are many very different types of algorithms for different different tasks. By using
+                        them we can
+                        minimize waiting time, response time and turnaround time of processes. like turnaround
+                        time
+                        is
+                        minimized if most processes finish their next cpu burst within one time quantum.</p>
+                </div>
+                <div>
+                    <h3>Time Minimizing</h3>
+                    <p>There are many very different types of algorithms for different different tasks. By using
+                        them we can
+                        minimize waiting time, response time and turnaround time of processes. like turnaround
+                        time
+                        is
+                        minimized if most processes finish their next cpu burst within one time quantum.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="blog">
+        <div class="blog-heading">
+            <!-- <span>My Recent Post</span> -->
+            <h1>Tutorials</h1>
+        </div>
+
+        <div class="blog-container" data-aos="zoom-in-up">
+            <div class="blog-box">
+                <div class="blog-img">
+                    <img src="./images/CPU Scheduling_3.PNG" alt="Blog">
+                </div>
+
+                <div class="blog-text">
+                    <span>18 July /Operating System</span>
+                    <a href="https://www.fusion-reactor.com/blog/multithreading-and-multiprocessing/#:~:text=A%20multiprocessing%20system%20has%20more,runs%20parallel%20to%20each%20other."
+                        class="blog-title">Multithreading vs Multiprocessing?</a>
+                    <p>In Multiprocessing, Many processes are executed simultaneously. While in multithreading, many
+                        threads of...</p>
+                    <a
+                        href="https://www.fusion-reactor.com/blog/multithreading-and-multiprocessing/#:~:text=A%20multiprocessing%20system%20has%20more,runs%20parallel%20to%20each%20other.">Read
+                        More</a>
+                </div>
+            </div>
+
+            <div class="blog-box">
+                <div class="blog-img">
+                    <img src="./images/CPU Scheduling_4.PNG" alt="Blog">
+                </div>
+
+                <div class="blog-text">
+                    <span>29 Jan /Operating System</span>
+                    <a href="https://www.eletimes.com/microprocessor-vs-microcontroller-what-is-the-difference#:~:text=Ultimately%2C%20microcontrollers%20and%20microprocessors%20are,that%20connects%20to%20external%20peripherals."
+                        class="blog-title">Microcontroller vs Microprocessor</a>
+                    <p>microcontrollers and microprocessors are different ways of organizing and optimizing a...</p>
+                    <a
+                        href="https://www.eletimes.com/microprocessor-vs-microcontroller-what-is-the-difference#:~:text=Ultimately%2C%20microcontrollers%20and%20microprocessors%20are,that%20connects%20to%20external%20peripherals.">Read
+                        More</a>
+                </div>
+            </div>
+
+            <div class="blog-box">
+                <div class="blog-img">
+                    <img src="./images/CPU Scheduling_1.PNG" alt="Blog">
+                </div>
+
+                <div class="blog-text">
+                    <span>02 Feb /Operating System</span>
+                    <a href="https://www.crucial.in/articles/about-memory/what-is-the-difference-between-ram-and-rom#:~:text=RAM%20is%20volatile%20memory%20that,Find%20out%20more%20about%20RAM."
+                        class="blog-title">Difference between RAM and Rom</a>
+                    <p>RAM is volatile memory that temporarily stores the files you are working on. ROM is
+                        non-volatile... </p>
+                    <a
+                        href="https://www.crucial.in/articles/about-memory/what-is-the-difference-between-ram-and-rom#:~:text=RAM%20is%20volatile%20memory%20that,Find%20out%20more%20about%20RAM.">Read
+                        More</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="blog-container" data-aos="zoom-in-up">
+            <div class="blog-box">
+                <div class="blog-img">
+                    <img src="./images/os.jpg" alt="Blog">
+                </div>
+
+                <div class="blog-text">
+                    <a href="https://www.youtube.com/watch?v=bkSWJJZNgf8&list=PLxCzCOWd7aiGz9donHRrE9I3Mwn6XdP8p"
+                        class="blog-title">Gate Smashers</a>
+                    <p>a semaphore is a variable or abstract data type used to control access to a common resource by...
+                    </p>
+                    <a href="https://www.youtube.com/watch?v=bkSWJJZNgf8&list=PLxCzCOWd7aiGz9donHRrE9I3Mwn6XdP8p">Read
+                        More</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <section class="cta" data-aos="zoom-in-up">
+        <h1>Learn about all types Algorithm<br> Click Below!</h1>
+        <a href="./docs.html" class="hero-btn">Click Here</a>
+    </section>
+
+    <section class="footer">
+        <!-- <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta pariatur eveniet eaque provident error velit totam quos. Corrupti sunt omnis<br>  eligendi ut enim, sed magnamquo laboriosam, aspernatur nulla ipsum commodi itaque accusantium sapiente!</p> -->
+
+        <div class="icons">
+            <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/invites/contact/?i=17s1o7wfms500&utm_content=i08g8yn"><i
+                    class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/Krutarth12345?t=JASTMDZLzUB4VOR-OEd_kg&s=09"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/sharayuanuse/"><i class="fab fa-linkedin"></i></a>
+        </div>
+
+        <p>Created with <i class="far fa-heart"></i> by Sharayu Anuse</p>
+        <p> <i class="fa fa-copyright"></i> copyright 2023 || All rights reserved</p>
+    </section>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+        function gotoDocs() {
+            location.href = ("docs.html");
+        }
+    </script>
+
+    <!-- animation for cards -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 100, // offset (in px) from the original trigger point
+            duration: 800
+        }
+        );
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.my-slider').slick({
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                arrows: true,
+                dots: false,
+                speed: 300,
+                infinite: true,
+                autoplaySpeed: 1000,
+                autoplay: true,
+                responsive: [
+                    {
+                        breakpoint: 991,
+                        settings: {
+                            slidesToShow: 2,
+                        }
+                    },
+                    {
+                        breakpoint: 767,
+                        settings: {
+                            slidesToShow: 1,
+                        }
+                    }
+                ]
+            });
+        });
+    </script>
+</body>
+
+</html>

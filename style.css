@@ -998,7 +998,7 @@ h3{
 
 .container_1{
     text-align: center;
-    background:#eceaea;
+    background:white;
 }
 
 .header_1{
@@ -1015,48 +1015,77 @@ h3{
     padding: 46px 0;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
+    gap: 25px;
 }
 
 
 
-.teams{
+.profile{
     margin:10px;
     box-sizing: border-box;
     transition: 0.4s;
     cursor: pointer;
     padding: 22px;
     border: 1px solid rgb(202, 200, 200);
+    border-radius: 1rem;
     max-width: 30%;
 }
 
 
-.teams:hover{ 
+.profile:hover{ 
     /* background: rgb(202, 200, 200); */
     box-shadow: 0 0 20px 0px rgba(13, 14, 13, 0.644);
     transition: 0.7s;
 }
 
-.teams img{
+.profile img{
     width: 200px;
     height: 200px;
+}
+
+.desc {
+    margin: 10px;
+    box-sizing: border-box;
+    transition: 0.4s;
+    cursor: pointer;
+    padding: 38px;
+    border: 1px solid rgb(202, 200, 200);
+    border-radius: 1rem;
+    max-width: 60%;
+    text-align: left;
+}
+
+
+.desc:hover {
+    /* background: rgb(202, 200, 200); */
+    box-shadow: 0 0 20px 0px rgba(13, 14, 13, 0.644);
+    transition: 0.7s;
 }
 
 .name{
     padding:5px;
     font-size: 20px;
-    color: red;
+    color: #000080;
     text-transform: uppercase;
+    font-weight:bold
 }
 
 .desig{
     font-style: italic;
-    color:rgb(97, 78, 78);
-    margin: 12px 0;
+    margin: 10px 0;
+    font-size: 15px;
     font-weight: lighter;
     /* color:#b18a50 */
 }
 
+.sharayu{
+    width: 150px; /* Adjust the size as needed */
+            height: 150px; /* Same as width to ensure a perfect circle */
+            border-radius: 50%;
+            object-fit: cover;
+            object-position: top;
+}
 .social-links_1{
     margin: 14px;
 }
@@ -1178,7 +1207,7 @@ h3{
 }
 
 @media screen and (max-width:600px){
-    .teams{
+    .profile, .desc{
         max-width: 100%;
     }
 }

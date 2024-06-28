@@ -1166,6 +1166,11 @@ explain.style.display = "none";
 
 $("#explanation").click(function (){
 
+	var explanation = document.getElementById('explanation');
+	explanation.disabled = true;
+	explanation.style.background = 'grey';
+	explanation.style.cursor = 'not-allowed';
+
 	explain.style.display = "block";
 
 	var inputdata = document.getElementById('input');
